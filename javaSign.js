@@ -1,4 +1,4 @@
-// append prepend after
+
 console.log("hello");
 const email = document.getElementById('email')
 const password = document.getElementById('password')
@@ -36,6 +36,6 @@ function add() {
 
   if ( email.value === 'admin@mail.ru' && password.value === 'unstoppableAdmin228') {
       alert("You logged in");
-      location.href = ""; // link to admin panel
+      location.href = "https://abylaiayan.github.io/adminPanel/index.html"; // link to admin panel
   }
 }
