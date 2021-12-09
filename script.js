@@ -22,9 +22,4 @@ $(document).ready(function(){
   });
 });
 
-$(function(){
-	$('linesub').on('click', function(){
-  	$(this).toggleClass('active');
-  });
-});
 
