@@ -46,8 +46,8 @@ window.onload = function() {
 
     class Info {
         constructor(firstNameTxtValue, lastNameTxtValue, ageTxtValue, emailTxtvalue, passwordTxtvalue) {
-            this.author = firstNameTxtValue;
-            this.book = lastNameTxtValue;
+            this.firstName = firstNameTxtValue;
+            this.lastName = lastNameTxtValue;
             this.age = ageTxtValue;
             this.email = emailTxtvalue;
             this.password = passwordTxtvalue;
